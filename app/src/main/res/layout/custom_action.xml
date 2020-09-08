@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+
+
+    >
+
+//todo grid/gradient layput
+    <ImageButton
+        android:id="@+id/cancel_btn"
+        android:layout_width="@dimen/dimens_40"
+        android:layout_height="@dimen/dimens_40"
+        android:background="@android:color/transparent"
+        android:layout_gravity="right"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="72dp"
+        android:onClick="confirmCancel"
+        android:src="@drawable/ic_cancel"
+
+        />
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="72dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Are You Sure"
+            android:textColor="@color/colorTextDefault"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="48dp"
+            android:layout_height="41dp"
+            android:src="@drawable/ic_question"
+            android:tint="@color/colorTextDefault" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/confirm_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_confirm_background"
+        android:text="@string/yes"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:textSize="32dp"
+        android:textColor="@color/colorAccentDark"
+        android:gravity="center"
+        android:paddingHorizontal="16dp"
+        android:layout_marginBottom="60dp"
+        android:onClick="confirmCancel"
+
+        />
+
+</LinearLayout>

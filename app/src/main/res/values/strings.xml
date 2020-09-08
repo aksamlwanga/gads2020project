@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LEADERBOAD</string>
+    <string name="tab_text_1">learning Leaders</string>
+    <string name="tab_text_2">Skill IQ Leaders</string>
+    <string name="submit">Submit</string>
+    <string name="skill_iq_score">skill IQ Score,</string>
+    <string name="learning_hours">learning hours,</string>
+    <string name="projectsubmission">Project Submission</string>
+    <string name="yes">Yes</string>
+    <string name="submission_not_successful">Submission Not Successful</string>
+    <string name="submission_successful">Submission Successful</string>
+    <string name="fields">All Fields required</string>
+    <string name="desc_gads_banner">Gads log</string>
+    <string name="desc_back_button" />
+    <string name="label_project_submission">Project Submission</string>
+    <string name="valide_email">Enter a valid email address</string>
+    <string name="label_are_you_sure" />
+</resources>
